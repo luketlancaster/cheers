@@ -42,4 +42,6 @@ if (birthday - today) < 0
 elsif (birthday - today) > 0
   days_away = (birthday - today).to_i
   puts "\nAwesome! Your birthday is in #{days_away} days! Happy Birthday in advance!"
+else
+  puts "\nAwesome! Your birthday is today! Happy birthday!"
 end
